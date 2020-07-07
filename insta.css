@@ -1,0 +1,134 @@
+html{
+    background-color: #fafafa;
+    
+}
+.gridInterno2 {
+   
+    
+    width: 350;
+    height: 450;
+    
+    text-align: center;
+    font-style: inherit;
+}
+.gridacceso {
+    width: 350px;
+    height: 380px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding-top: 1rem;
+    background-color: white;
+}
+.gridInterno1 {
+    text-align: right;
+    margin-top: 5px;
+} 
+
+.Global{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 580px;
+    grid-template-areas: 
+    ". a a ."
+    ". a a .";
+}
+.grid {
+    grid-area: a;/*por que a*/
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 400px 350px;
+    grid-template-rows: 580px;
+    grid-column-gap: 1.5rem;
+    width: 750;
+    
+    justify-self: center;
+}
+.botonIngresar {
+    padding: 7px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: #8fc2e4;
+    /*0095f6 color original*/
+    border: none;
+    width: 268px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.password {
+    width: 258px;
+    height: 36px;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    background-color: #fafafa;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    color: rgb(118, 118, 118);
+    
+}
+.account {
+    width: 258px;
+    height: 36px;
+    margin-top: 1rem;
+    background-color: #fafafa;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    color: rgb(118, 118, 118);
+}
+
+.BotonFace {
+    display: flex;
+    flex-direction: row;
+    width: 258px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3b5998 ;
+    text-decoration: none;
+    
+    
+}
+.OlvCon {
+    margin-top: 1.2rem;
+    color: black;
+    font-size: 14px;
+    
+}
+.colorface:hover {
+    color: #3b5998 ;
+    text-decoration: none;
+}
+.colorface{
+    text-decoration: none;
+}
+.logoface {
+    float: left;
+}
+.NoTienes {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: white;
+    width: 350px;
+    height: 63px;
+    margin-top: 1rem;
+    align-items: center;
+    
+}
+
+.Notienesl{
+    width: 60%;
+    text-align: right;
+}
+.hiper {
+    padding: 10px;
+    color: #0095f6;
+}
+.gridfooter{
+    display: grid;
+    grid-template-columns: 90px 50px 55px 30px 55px 80px 85px 85px 150px 70px 50px;
+    grid-row: 18px;
+    font-size: 12px;
+    color: #00376b;
+}
